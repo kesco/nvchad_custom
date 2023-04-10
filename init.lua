@@ -18,3 +18,9 @@ vim.api.nvim_create_autocmd({"BufRead", "BufNewFile"}, {
 		vim.bo.filetype = "kdl"
   end
 })
+
+-- 使用系统剪贴板
+vim.opt.clipboard = "unnamedplus"
+
+-- 使用相对行号
+vim.opt.relativenumber = true
