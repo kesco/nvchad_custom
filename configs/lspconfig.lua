@@ -9,7 +9,6 @@ local servers = {
   "clangd",
   "cssls",
   "html",
-  "lua_ls",
   "neocmake",
   "tsserver",
 }
