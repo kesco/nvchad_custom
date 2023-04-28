@@ -15,10 +15,6 @@ M.ui = {
     theme = "minimal",
     separator_style = "round",
   },
-
-  tabufline = {
-    show_numbers = true,
-  },
 }
 
 M.plugins = "custom.plugins"

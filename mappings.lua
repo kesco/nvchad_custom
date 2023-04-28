@@ -12,6 +12,8 @@ M.general = {
   n = {
     [";"] = { ":", "enter command mode", opts = { nowait = true } },
     ["<leader>bb"] = { "<cmd> enew <CR>", "new buffer" },
+    ["[q"] = { "<cmd> cprev <CR> zz", "previous quickFix" },
+    ["]q"] = { "<cmd> cnext <CR> zz", "next quickFix" }
   },
 }
 
